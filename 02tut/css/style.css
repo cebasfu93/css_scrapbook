@@ -1,0 +1,33 @@
+/* the body often has general settings that should apply everywhere in the website */
+body {
+  font-size: 22px;
+}
+
+/* this ruleset applies to h1 and h2 */
+h1,
+h2 {
+  color: blue;
+}
+/* this ruleset applies to the h2's that are inside an h1 */
+/* h1 h2 {
+  color: blue;
+} */
+
+/* having rulesets for nested elements is usually a sign that it should be replaced by a class selector */
+/* p span {
+  text-transform: uppercase;
+  background-color: gold;
+} */
+
+.highlight {
+  text-transform: uppercase;
+  background-color: gold;
+}
+
+p {
+  color: purple;
+}
+
+.gray {
+  color: gray;
+}
