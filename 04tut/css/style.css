@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header {
+  /* makes the `header` element 50% narrower than the parent component
+  width: 50%; 
+} */
+
+h1 {
+  /* border: 2px dashed red; */
+  /* makes the `h1` headers 50% narrower than their parent component. 25% of the page's width if there is an `h1` inside a `header` */
+  /* width: 50%; */
+  padding: 0.5em;
+  width: 50vw;
+  font-size: 3rem;
+}
+
+main {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 2rem;
+  width: 40ch;
+}
