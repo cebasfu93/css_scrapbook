@@ -5,21 +5,3 @@ body {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
 }
-
-a {
-  text-decoration: underline;
-  cursor: pointer;
-  color: black;
-}
-
-a:visited {
-  color: black;
-}
-
-a:hover,
-a:focus {
-  color: dodgerblue;
-}
-a:active {
-  color: red;
-}

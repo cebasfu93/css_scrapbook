@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  padding: 5% 10%;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+ol {
+  list-style-type: decimal;
+  padding: 0;
+}
+
+ul {
+  text-align: center;
+  color: blue;
+  line-height: 1.6;
+  /* granular specification of properties */
+  list-style-type: square;
+  list-style-position: inside;
+  /* list-style-image: url("../images/checkmark.png"); */
+  /* shorthand specification of the values */
+  /* list-style: square url("../images/checkmark.png") inside; */
+}
+
+ul li:nth-child(2) {
+  /* make the second element red */
+  color: red;
+}
+
+ul ::marker {
+  /* use the "marker" pseudoelement to make all markers green and bigger */
+  color: green;
+  font-family: fantasy;
+  font-size: 1em;
+  content: "Only $5>>";
+}
